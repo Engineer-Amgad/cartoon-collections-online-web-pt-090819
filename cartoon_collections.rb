@@ -21,8 +21,7 @@ end
 
 def find_the_cheese(cheddar_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
-  #first_find = 0  
+
   i = 0 
   while i < cheese_types.length 
     cheddar_cheese.detect do |el|
